@@ -1,8 +1,7 @@
-export default function MultiChoice(){
+export default function MultiChoice() {
     return (
         <>
-            <div className="">
-            </div>
+            <div className=''></div>
         </>
-    );
+    )
 }
