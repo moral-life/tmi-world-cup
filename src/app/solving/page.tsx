@@ -1,3 +1,5 @@
+"use client";
+
 import SelectBox from "@/app/components/SelectBox";
 import QuizText from "@/app/components/QuizText";
 
@@ -6,7 +8,7 @@ export default function Home() {
         <>
             <div className='flex h-full flex-col items-center justify-center lg:w-[30rem]'>
                 <div className='mt-6 flex w-full justify-center'>
-                    <QuizText difficulty={2}>
+                    <QuizText difficulty={1}>
                         이중 내가 가장 좋아하는 걸그룹은?
                     </QuizText>
                 </div>
@@ -23,9 +25,9 @@ export default function Home() {
                     <SelectBox name='TWICE' />
                     <SelectBox />
                 </div>
-                <div className='h-24 w-11/12'>
-                    <div className='flex h-6 w-full rounded-full bg-white'>
-                        <div className='w-1/2 rounded-l-full bg-amber-300'></div>
+                <div className='h-28 w-11/12 pt-3'>
+                    <div className='flex h-3 w-full rounded-full bg-white'>
+                        <div className='w-[50%] rounded-l-full bg-amber-300'></div>
                     </div>
                     <div className='mb-6 mt-3 text-center text-white'>
                         10/20
